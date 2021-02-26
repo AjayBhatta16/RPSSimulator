@@ -26,7 +26,6 @@ class Main {
     compName = keyboard.next();
     System.out.print("How many rounds are needed for victory? ");
     totalWins = keyboard.nextInt();
-    if(totalWins == 69){System.out.println("Nice");}
     System.out.println();
 
     while(compWins<totalWins && comp2Wins<totalWins) {
